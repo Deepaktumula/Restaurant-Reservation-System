@@ -21,7 +21,7 @@ public class ReservationDao {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("Reservation Driver");
 			Connection connection = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/RestaruantReservationSystem?useSSL=false", "root", "Deepak@29");
+					"jdbc:mysql://localhost:3306/RestaruantReservationSystem?useSSL=false", "root", "root");
 			System.out.println("Reservation DB Connection Success");
 			connection.setAutoCommit(false);
 
